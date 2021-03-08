@@ -8,7 +8,7 @@ $(document).ready(function () {
       $('textarea').val($('textarea').val() + v)
     },
   )
-    // Añadimos comentario
+   // Añadimos comentario
   //clicking equal sign evaluates the textarea
   $('#equal').click(function () {
     $('textarea').val(eval($('textarea').val()))
